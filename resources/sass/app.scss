@@ -1,0 +1,65 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.bg-top {
+    background-color: #f5f5f5;
+}
+
+.footer {
+    position: absolute;
+    z-index: 300;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+.grecaptcha-badge {
+    z-index: 999;
+}
+
+.header{
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 40px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+
+
+header .top-bar-simple p{ float:left;font-size:16px;
+    //padding:9px 20px; margin:0 0 0 -20px;
+
+    font-weight:400; position:relative;}
+header .top-bar-simple ul{ float:right;}
+header .top-bar-simple ul li{ float:left; list-style:none; font-size:14px;}
+header .top-bar-simple ul li i{ font-size:20px;}
+header .top-bar-simple ul.social li a i{ background:none; border:0; border-radius:0;}
+header.header-two{ position:relative;}
+header.header-two .header{ height:auto;}
+
+.social li				{ display:inline-block; margin:0 0;}
+.social li a i				{ display:block; border:1px solid #848484; background:#fff; text-align:center; border-radius:100%; color:#535353;line-height: 42px;}
+.social li a:hover i		{ color:#fff;}
+.social li a.facebook:hover i{ background:#3C599B !important; border-color:#3C599B !important;}
+.social li a.twitter:hover i{ background:#29AAE3 !important; border-color:#29AAE3 !important;}
+.social li a.google-plus:hover i{ background:#DB493A !important; border-color:#DB493A !important;}
+.social li a.linkedin:hover i{ background:#5694C7 !important; border-color:#5694C7 !important;}
+.social-text li			{ display:inline-block; position:relative;padding: 0 0;}
+.social-text li:before	{ content:"/";font-size: 12px;}
+.social-text li:first-child{ padding-left:0; margin-left:0;}
+.social-text li:first-child:before{ content:"";}
+.social-text li a			{ text-transform:uppercase; font-size:14px; color:#000000; text-transform:upercase;font-family: "Open Sans",sans-serif; font-weight:800;}
+.social-text li a.facebook:hover{ color:#3C599B}
+.social-text li a.twitter:hover{ color:#29AAE3}
+.social-text li a.youtube:hover{ color:#F92D22}
+.social-icons li 			{float: left;list-style: none;}
+.social-icons li a 		{font-size: 16px;height: 32px;overflow: hidden;text-align: center;width: 32px;}
